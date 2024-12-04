@@ -3,6 +3,8 @@
 
 @import url(styles/header.css);
 @import url(styles/section1.css);
+@import url(styles/section2.css);
+@import url(styles/section3.css);
 @import url(styles/footer.css);
 
 * {
@@ -13,7 +15,7 @@
 :root {
     --primary-font: "Poppins", sans-serif;
     --second-font: "Montserrat", sans-serif;
-    --color-black: #000;
+    --color-black: #2E2D36;
     --color-white: #fff;
 }
 
