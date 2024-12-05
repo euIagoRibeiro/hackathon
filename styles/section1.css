@@ -40,14 +40,14 @@
 @media (min-width: 0px) and (max-width: 850px) {
 
     .section1-container {
-        height: 80vh;
+        height: 85vh;
     }
 
     .section1-content {
         display: flex;
         flex-direction: column-reverse;
         gap: 3rem;
-        padding: 0% 7% 0% 7%;
+        padding: 0% 7% 15% 7%;
     }
 
     .section1-image {
