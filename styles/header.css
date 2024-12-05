@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1% 12% 1% 12%;
+    padding: 1.2% 8% 1.2% 8%;
 }
 
 .header_logo {
@@ -38,7 +38,6 @@
     font-weight: 300;
     color: var(--color-black);
     letter-spacing: 0.1rem;
-    text-transform: uppercase;
     transition: .4s;
 }
 
@@ -48,10 +47,10 @@
 
 .header_nav-itens {
     display: flex;
-    gap: 2rem;
+    gap: 1.3rem;
     font-family: var(--second-font);
     font-weight: 400;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .header_nav-item {
@@ -74,10 +73,18 @@
     display: none;
 }
 
+.mobile_menu2 {
+    display: none;
+}
+
 @media (min-width: 0px) and (max-width: 850px) {
 
     .header-content {
-        padding: 4.5% 10% 4.5% 10%;
+        padding: 4.5% 8% 4.5% 8%;
+    }
+
+    .header_logo {
+        gap: 1rem;
     }
 
     .header_logo-image {
@@ -85,7 +92,7 @@
     }
 
     .header_logo-text {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .header_nav {
@@ -94,6 +101,8 @@
 
     .header_navbar {
         display: block;
+        display: flex;
+        gap: 1rem;
     }
 
     .header_navbar > button {
@@ -105,7 +114,7 @@
     }
 
     .mobile-icon {
-        width: 7vw;
+        width: 7.5vw;
     }
 
     .mobile_menu {
@@ -135,7 +144,7 @@
     }
 
     .mobile_menu-item:hover {
-        background-color: gray;
+        background-color: var(--color-blue3);
         padding-left: 8rem;
     }
 

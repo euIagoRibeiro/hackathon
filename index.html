@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>Cybersec</title>
+    <link rel="shortcut icon" href="icon/Logo.ico" type="image/x-icon">
+    <title>CliqueSeguro</title>
 </head>
 <body>
 
@@ -16,16 +16,38 @@
             <div class="header_logo">
 
                 <a class="header_logo-content" href="index.html">
-                    <img class="header_logo-image" src="assets/shield-fill.svg" alt="Logo do site">
+                    <img class="header_logo-image" src="assets/logo.svg" alt="Logo do site">
                 </a>
 
                 <a class="header_logo-content" href="index.html">
-                    <span class="header_logo-text">Cybersec</span>
+                    <span class="header_logo-text">CliqueSeguro</span>
                 </a>
 
             </div>
 
             <!-- Navegação no Desktop -->
+            <div class="header_nav">
+                <ul class="header_nav-itens">
+
+                    <li class="header_nav-item">
+                        <a class="header_nav-item_link" href="">Início</a>
+                    </li>
+
+                    <li class="header_nav-item">
+                        <a class="header_nav-item_link" href="">Relatos</a>
+                    </li>
+
+                    <li class="header_nav-item">
+                        <a class="header_nav-item_link" href="">Ajuda</a>
+                    </li>
+
+                    <li class="header_nav-item">
+                        <a class="header_nav-item_link" href="">Notícias</a>
+                    </li>
+
+                </ul>
+            </div>
+
             <div class="header_nav">
                 <ul class="header_nav-itens">
 
@@ -45,6 +67,9 @@
                 <button onclick="menuShow()">
                     <img class="mobile-icon" src="assets/people.svg" alt="Barra de navegação do site">
                 </button>
+                <button onclick="menuShow2()">
+                    <img class="mobile-icon2" src="assets/menu.svg" alt="Barra de navegação do site">
+                </button>
             </div>
 
         </nav>
@@ -53,14 +78,43 @@
             <ul class="mobile_menu-itens">
                 <a href="">
                     <li class="mobile_menu-item">
-                        <img src="assets/house.svg" alt="Icone do início">
+                        <img src="assets/house.svg" alt="Icone de Login">
                         <p>Fazer Login</p>
                     </li>
                 </a>
                 <a href="">
                     <li class="mobile_menu-item">
-                        <img src="assets/people.svg" alt="Icone do início">
+                        <img src="assets/people.svg" alt="Icone de Registro">
                         <p>Cadastrar-se</p>
+                    </li>
+                </a>
+            </ul>
+        </div>
+
+        <div class="mobile_menu2">
+            <ul class="mobile_menu-itens">
+                <a href="">
+                    <li class="mobile_menu-item">
+                        <img src="assets/house.svg" alt="Icone do início">
+                        <p>Início</p>
+                    </li>
+                </a>
+                <a href="">
+                    <li class="mobile_menu-item">
+                        <img src="assets/people.svg" alt="Icone de relatos">
+                        <p>Relatos</p>
+                    </li>
+                </a>
+                <a href="">
+                    <li class="mobile_menu-item">
+                        <img src="assets/info-circle.svg" alt="Icone de ajuda">
+                        <p>Ajuda</p>
+                    </li>
+                </a>
+                <a href="">
+                    <li class="mobile_menu-item">
+                        <img src="assets/newspaper.svg" alt="Icone de notícias">
+                        <p>Notícias</p>
                     </li>
                 </a>
             </ul>
@@ -74,41 +128,94 @@
         <!-- SECTION 1 -->
         <section class="section1-container">
             <div class="section1-content">
-                <img class="section1-image" src="assets/shield-fill.svg" alt="">
-                <h1 class="section1-text">O seu relato pode ajudar outras pessoas!</h1>
+                <div class="section1-content-text">
+                    <p class="section1-subtitle">Relaxe! Você chegou a um ambiente seguro e livre de golpes</p>
+                    <h1 class="section1-title">Não se cale, o seu relato pode ajudar outras pessoas</h1>
+                </div>
+                <img class="section1-image" src="images/Foto-1.png" alt="">
             </div>
         </section>
 
         <!-- SECTION 2 -->
          <section class="section2-container">
             <div class="section2-content">
-                <div class="section2-text">
-                    <h2 class="section2-title">Lorem Ipsum</h2>
-                    <p class="section2-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi vel laboriosam, sapiente dolorum culpa dolorem enim maiores?</p>
-                </div>
-                <div class="section2-images">
-                    <img class="section2-image" src="images/Character.png" alt="">
-                </div>
+                <p class="section2-title">Como podemos te ajudar a se proteger de golpes digitais</p>
+                <ul class="section2-buttons">
+                    <a class="section2-button_link" href="">
+                        <li class="section2-button">
+                            <img class="section2-button_image" src="assets/heart-handshake.svg" alt="">
+                            <p class="section2-button_text">relatos reais</p>
+                        </li>
+                    </a>
+                    <a class="section2-button_link" href="">
+                        <li class="section2-button">
+                            <img class="section2-button_image" src="assets/book-open-text.svg" alt="">
+                            <p class="section2-button_text">informações úteis</p>
+                        </li>
+                    </a>
+                    <a class="section2-button_link" href="">
+                        <li class="section2-button">
+                            <img class="section2-button_image" src="assets/lightbulb.svg" alt="">
+                            <p class="section2-button_text">nossas dicas</p>
+                        </li>
+                    </a>
+                    <a class="section2-button_link" href="">
+                        <li class="section2-button">
+                            <img class="section2-button_image" src="assets/newspaper2.svg" alt="">
+                            <p class="section2-button_text">notícias sobre</p>
+                        </li>
+                    </a>
+                </ul>
             </div>
          </section>
 
         <!-- SECTION 3 -->
          <section class="section3-container">
+            <p class="section3-title">Compartilhe experiências, conecte-se e encontre apoio.</p>
             <div class="section3-content">
                 <div class="section3-images">
                     <img class="section3-image" src="images/Golpe.png" alt="">
                 </div>
                 <div class="section3-text">
-                    <h2 class="section3-title">Lorem Ipsum</h2>
-                    <p class="section3-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi vel laboriosam, sapiente dolorum culpa dolorem enim maiores?</p>
+                    <img class="section3-text-image1" src="images/feedback-1.png" alt="">
+                    <img class="section3-text-image2" src="images/feedback-2.png" alt="">
+                    <ul class="section3-buttons">
+                        <li class="section3-button-content">
+                            <a class="section3-button_link" href="">Leia outros relatos</a>
+                        </li>
+                        <li class="section3-button-content">
+                            <a class="section3-button_link button-2" href="">Compartilhe o seu</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
          </section>
 
     </main>
 
-    <footer>
-
+    <footer class="footer-container">
+        <div class="footer-content">
+            <div class="footer-content-text">
+                <div class="footer_logo">
+                    <img class="footer_logo-image" src="assets/logo.svg" alt="">
+                    <span class="footer_logo-text">CliqueSeguro</span>
+                </div>
+                <p class="footer-content-desc">Aqui você se conscientiza e ajuda pessoas a se conscientizarem </p>
+                <ul class="footer-icons">
+                    <li class="footer-icon">
+                        <a class="footer-icon-link" href="">
+                            <img src="assets/instagram.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="footer-icon">
+                        <a class="footer-icon-link" href="">
+                            <img src="assets/linkedin.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <p class="footer-copy">© 2024 CliqueSeguro. Todos os direitos reservados.</p>
+        </div>
     </footer>
 
     <script src="script.js"></script>

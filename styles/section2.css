@@ -1,69 +1,84 @@
 
 .section2-container {
-    background-color: transparent;
+    background-color: #d5e4f691;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    
 }
 
 .section2-content {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 5rem;
-    padding: 10% 0% 20% 0%;
-}
-
-.section2-text {
-    color: var(--color-black);
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    text-align: center;
     gap: 1rem;
+    padding: 6% 0% 6% 0%;
 }
 
 .section2-title {
-    font-size: 2.5rem;
-    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: 300;
 }
 
-.section2-desc {
-    font-size: 1.2rem;
-    font-family: var(--second-font);
-    font-weight: 400;
+.section2-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
 }
 
-.section2-image {
-    width: 18vw;
+.section2-button_link {
+    padding: 2% 0% 2% 0%;
+    color: var(--color-black);
+    transition: .4s;
+}
+
+.section2-button_link:hover {
+    transform: scale(1.1);
+}
+
+.section2-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #D5E4F6;
+    border-radius: 0.5rem;
+    padding: 5% 4% 5% 4%;
+    text-align: center;
+}
+
+.section2-button_image {
+    width: 3vw;
 }
 
 @media (min-width: 0px) and (max-width: 850px) {
 
     .section2-content {
         display: flex;
-        flex-direction: column-reverse;
-        gap: 5rem;
-        padding: 10% 0% 60% 0%;
-    }
-
-    .section2-text {
-        display: flex;
         flex-direction: column;
-        text-align: center;
-        width: 80%;
+        gap: 1rem;
+        padding: 12% 0% 12% 0%;
     }
 
     .section2-title {
-        font-size: 2.5rem;
+        text-align: center;
     }
 
-    .section2-desc {
-        font-size: 1.5rem;
+    .section2-buttons {
+        display: flex;
+        padding: 0% 5% 0% 5%;
     }
 
-    .section2-image {
-        width: 60vw;
-        padding: 0% 5% 0% 0%;
+    .section2-button {
+        padding: 12% 5% 12% 5%;
+    }
+
+    .section2-button_image {
+        width: 6vw;
     }
 }

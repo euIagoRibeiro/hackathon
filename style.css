@@ -16,7 +16,12 @@
     --primary-font: "Poppins", sans-serif;
     --second-font: "Montserrat", sans-serif;
     --color-black: #2E2D36;
+    --color-black2: #d1d1d1;
+    --color-black3: #000;
     --color-white: #fff;
+    --color-blue: #0D2139;
+    --color-blue2: #1F4D84;
+    --color-blue3: #78c4ff;
 }
 
 html, body {
