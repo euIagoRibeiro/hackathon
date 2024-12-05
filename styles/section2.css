@@ -26,7 +26,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
+    gap: 2.5rem;
 
 }
 
@@ -48,12 +48,12 @@
     gap: 0.5rem;
     background-color: #D5E4F6;
     border-radius: 0.5rem;
-    padding: 5% 4% 5% 4%;
+    padding: 8% 4% 8% 4%;
     text-align: center;
 }
 
 .section2-button_image {
-    width: 3vw;
+    width: 2vw;
 }
 
 @media (min-width: 0px) and (max-width: 850px) {
@@ -71,7 +71,8 @@
 
     .section2-buttons {
         display: flex;
-        padding: 0% 5% 0% 5%;
+        gap: 0.6rem;
+        padding: 0% 4% 0% 4%;
     }
 
     .section2-button {

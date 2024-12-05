@@ -47,11 +47,11 @@
         display: flex;
         flex-direction: column-reverse;
         gap: 3rem;
-        padding: 0% 7% 20% 7%;
+        padding: 0% 7% 18% 7%;
     }
 
     .section1-image {
-        width: 45vw;
+        width: 50vw;
         padding: 0% 0% 0% 5%;
     }
 

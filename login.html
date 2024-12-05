@@ -121,13 +121,60 @@
     </header>
 
     <main>
-        <section>
-
+        <section class="section_login-container">
+            <div class="section_login-content">
+                <div class="section_login_left">
+                    <img class="login_left-image" src="assets/logo-white.svg" alt="">
+                    <div class="login_left-buttons">
+                        <p class="login_left-text">Já Possui uma conta?</p>
+                        <a class="login_left-button" href="">Login</a>
+                    </div>
+                </div>
+                <div class="section_login-right">
+                    <form class="login_right-form">
+                        <h2 class="form-title">Cadastre-se</h2>
+                        <div class="form-inputs">
+                            <p class="input-text">Email</p>
+                            <input class="input input-1" type="email" placeholder="E-mail" id="email">
+                            <p class="input-text">Senha</p>
+                            <input class="input input-2" type="password" placeholder="Senha" id="password">
+                        </div>
+                        <div class="form-buttons">
+                            <input class="form-button" type="submit" value="Registre-se" onclick="logar()">
+                        </div>
+                    </form>
+                </div>
+            </div>
         </section>
     </main>
 
-    <footer>
-
+    <footer class="footer-container">
+        <div class="footer-content">
+            <div class="footer-content-text">
+                <div class="footer_logo">
+                    <a class="footer_logo-text_link" href="index.html">
+                        <img class="footer_logo-image" src="assets/logo.svg" alt="">
+                    </a>
+                    <a class="footer_logo-text_link" href="index.html">
+                        <span class="footer_logo-text">CliqueSeguro</span>
+                    </a>
+                </div>
+                <p class="footer-content-desc">Aqui você se conscientiza e ajuda pessoas a se conscientizarem </p>
+                <ul class="footer-icons">
+                    <li class="footer-icon">
+                        <a class="footer-icon-link" href="">
+                            <img src="assets/instagram.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="footer-icon">
+                        <a class="footer-icon-link" href="">
+                            <img src="assets/linkedin.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <p class="footer-copy">© 2024 CliqueSeguro. Todos os direitos reservados.</p>
+        </div>
     </footer>
 
     <script src="script.js"></script>
