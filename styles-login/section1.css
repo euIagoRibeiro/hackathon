@@ -126,3 +126,124 @@
     background-color: none;
     transform: scale(1.05);
 }
+
+@media (min-width: 0px) and (max-width: 850px) {
+
+    .section_login-container {
+        display: none;
+    }
+
+    .section_login_mobile-content {
+        color: var(--color-white);
+    }
+
+    .login_mobile-left {
+        background-color: var(--color-blue);
+        padding: 10% 10% 10% 10%;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .mobile_left-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .text-image {
+        width: 13vw;
+    }
+
+    .text-desc {
+        font-size: 1.3rem;
+    }
+
+    .mobile_left-button {
+        padding: 0% 20% 0% 20%;
+    }
+
+    .text-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        background-color: var(--color-blue2);
+        padding: 4% 0% 4% 0%;
+        border-radius: 0.8rem;
+        font-size: 1.2rem;
+    }
+
+    .login_mobile-right {
+        background-color: var(--color-blue2);
+    }
+
+    /* FORM */
+
+    .login_right-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        color: var(--color-white);
+    
+        width: 100%;
+        height: 100%;
+        padding: 20% 0% 40% 0%;
+    }
+    
+    .form-title {
+        font-family: var(--second-font);
+        font-weight: 400;
+        padding: 0% 0% 5% 0%;
+        font-size: 2.5rem;
+    }
+    
+    .form-inputs  {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .input {
+        border: none;
+        border-radius: 0.6rem;
+        outline: none;
+        padding: 0% 0% 0% 3%;
+        width: 21rem;
+        height: 2.8rem;
+    }
+    
+    .input-1 {
+        margin: 0% 0% 6% 0%;
+    }
+    
+    .form-buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2% 0% 5% 0%;
+    }
+    
+    .form-button {
+        border: none;
+        outline: none;
+        transition: .4s;
+        background-color: var(--color-blue);
+        color: var(--color-white);
+        width: 60vw;
+        height: 5vh;
+        border-radius: 1rem;
+        font-size: 1rem;
+        font-family: var(--primary-font);
+        transition: .4s;
+    }
+    
+    .form-button:hover {
+        background-color: none;
+        transform: scale(1.05);
+    }
+
+
+}
