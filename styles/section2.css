@@ -71,12 +71,12 @@
 
     .section2-buttons {
         display: flex;
-        gap: 0.6rem;
+        gap: 0.8rem;
         padding: 0% 4% 0% 4%;
     }
 
     .section2-button {
-        padding: 12% 5% 12% 5%;
+        padding: 12% 3.5% 12% 3.5%;
     }
 
     .section2-button_image {
