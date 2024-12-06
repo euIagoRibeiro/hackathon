@@ -137,6 +137,11 @@
         display: none;
     }
 
+    .section_login_mobile-container {
+        display: flex;
+        flex-direction: column;
+    }
+
     .section_login_mobile-content {
         color: var(--color-white);
     }
