@@ -1,0 +1,56 @@
+.section_relatos-container {
+    background-color: var(--color-white);
+    padding: 0% 0% 1% 0%;
+}
+
+.section_relatos-content {
+    display: flex;
+    flex-direction: column;
+    padding: 2% 0% 0% 0%;
+}
+
+.section_relatos-title {
+    font-family: var(--second-font);
+    font-weight: 400;
+    font-size: 1.5rem;
+    background-color: var(--color-purple2);
+    width: 12.5%;
+    padding: 0.5% 1% 0.5% 1%;
+    border-radius: 0.5rem;
+    margin: 0% 0% 2% 15%;
+}
+
+.section_relatos-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    width: 65vw;
+    margin: 00% 0% 0% 18%;
+}
+
+.section_relatos-images2 {
+    display: none;
+}
+
+@media (min-width: 0px) and (max-width: 850px) {
+
+    .section_relatos-title {
+        font-size: 1.5rem;
+        width: 40%;
+        margin: 5% 0% 8% 10%;
+        padding: 2% 4% 2% 4%;
+    }
+
+    .section_relatos-images {
+        display: none;
+    }
+
+    .section_relatos-images2 {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        width: 85vw;
+        margin: 0% 0% 0% 8%;
+    }
+}
