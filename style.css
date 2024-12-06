@@ -7,6 +7,9 @@
 /* RELATOS */
 @import url(styles-relatos/section1.css);
 
+/* AJUDA */
+@import url(styles.ajuda/section1.css);
+
 /* NOTÍCIAS */
 @import url(styles-noticias/section1.css);
 
